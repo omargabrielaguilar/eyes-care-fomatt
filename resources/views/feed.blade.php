@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout :title="'Feed - PIXL'">
 
   <body class="bg-pixl-dark text-pixl-light flex gap-8 px-4 sm:h-dvh sm:overflow-clip xl:gap-16">
     {{-- Navigation --}}
@@ -118,14 +118,14 @@
         <!-- Feed item -->
         <li class="flex items-start gap-4 not-first:pt-2.5">
           <a href="/profile" class="shrink-0">
-            <img src="/images/Amanda.png" alt="Avatar for Amanda" class="size-10 object-cover" />
+            <img src="/images/amanda.png" alt="Avatar for amanda" class="size-10 object-cover" />
           </a>
           <div class="grow pt-1.5">
             <div class="border-pixl-light/10 border-b pb-5">
               <!-- User meta -->
               <div class="flex items-center justify-between gap-4">
                 <div class="flex items-center gap-2.5">
-                  <p><a class="hover:underline" href="/profile">Amanda</a></p>
+                  <p><a class="hover:underline" href="/profile">amanda</a></p>
                   <p class="text-pixl-light/40 text-xs">3h</p>
                   <p>
                     <a class="text-pixl-light/40 hover:text-pixl-light/60 text-xs" href="/profile">@mmich_jj</a>
@@ -289,7 +289,7 @@
                 <form class="grow" action="">
                   <label class="sr-only" for="reply">Reply body</label>
                   <textarea class="w-full resize-none text-sm" rows="5" name="reply" id="reply"
-                    placeholder="Reply to Amanda's post"></textarea>
+                    placeholder="Reply to amanda's post"></textarea>
                   <div class="flex items-center justify-between gap-4">
                     <div class="flex gap-4">
                       <button type="button">
